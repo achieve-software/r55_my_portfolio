@@ -1,8 +1,19 @@
 import {Link, NavLink} from 'react-router-dom';
-  
-
+import Hamburger from './Hamburger';
+import React, { useState } from "react";
+import "./Navbar.scss";
 const Navbar = () => {
+
+  const [hamburgerOpen, setHamburgerOpen] = useState(false)
+  const toogleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen)
+  };
     return (
+      <>
+      <div onClick={()=>{toogleHamburger();}}>
+      <Hamburger/>
+
+      </div>
       <header>
         <div className='container'>
           <div className='d-flex justify-content-between align-items-center'>
@@ -28,6 +39,20 @@ const Navbar = () => {
           </div>
         </div>
       </header>
+      <div className='navbar-hamburger' onMouseLeave={()=>setHamburgerOpen(false)}>
+          <Link className='link' to="/" >Home</Link>
+          <Link className='link' to="/about">About</Link>
+          <Link className='link' to="/projects">Projects</Link>
+          <Link className='link' to="/contact">Contact</Link>
+        </div>
+
+        <style jsx="true">
+          {`.navbar-hamburger{
+            display:${hamburgerOpen? 'flex' : 'none'}
+          }
+        `}
+        </style>
+      </>
     )}
 
     export default Navbar
