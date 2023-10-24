@@ -10,7 +10,7 @@ const Home = () => {
 <img
 className='object_developer 'src={profile}
 width ="500px"
-alt="developer" /><h1 className="name">Mustafa Bozkaya</h1>
+alt="developer" /><h1 className="name">Alex Victor</h1>
 <h3>Full-Stack Developer</h3>    </div>
   )
 }

@@ -12,7 +12,6 @@ const Navbar = () => {
       <>
       <div onClick={()=>{toogleHamburger();}}>
       <Hamburger/>
-
       </div>
       <header>
         <div className='container'>
