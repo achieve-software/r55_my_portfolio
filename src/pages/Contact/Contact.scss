@@ -1,0 +1,46 @@
+@import "../../sass/variables.scss";.contact-container {
+    background: linear-gradient(to right, rgba(gray, 0.2), rgba(gray, 0.1)),
+      url("../../assets/img/12.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    h2{
+      color: yellow;
+     // color: $primary-color;
+      font-family: $tertiary-font;
+    }
+    .contact-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      .contact-item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.3rem;      p{
+          color: yellow;
+          //color: $tertiary-color;
+          display: flex;
+          gap: 0.3rem;
+          justify-content: center;
+          align-items: center;
+          font-family: $secondary-font;
+        }
+        .contact-text{
+          color: yellow;
+          //color: $text-color;
+          font-family: $tertiary-font;
+        }
+      }
+    }
+  }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.scss";
-import profile from "../../assets/img/profile.avif"
+import profile from "../../assets/img/33.jpg"
 
 
 
