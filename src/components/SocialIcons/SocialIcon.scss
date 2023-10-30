@@ -1,0 +1,115 @@
+$background-color_1: #CC39A4
+;
+$background-color_2: #03A9F4
+;
+$background-color_3: black;
+$background-color_4: #8C9EFF
+;.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+.down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+.card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+    &:hover {
+        cursor: pointer;
+        scale: 1.1;
+        background-color: $background-color_1;
+        .instagram {
+            fill: white;
+        }
+    }
+}
+.instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #CC39A4
+;
+}
+.card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+    &:hover {
+        cursor: pointer;
+        scale: 1.1;
+        background-color: $background-color_2;
+        .twitter {
+            fill: white;
+        }
+    }
+}
+.twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4
+;
+}
+.card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+    &:hover {
+        cursor: pointer;
+        scale: 1.1;
+        background-color: $background-color_3;
+        .github {
+            fill: white;
+        }
+    }
+}
+.github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+}
+.card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+    &:hover {
+        cursor: pointer;
+        scale: 1.1;
+        background-color: $background-color_4;
+        .discord {
+            fill: white;
+        }
+    }
+}
+.discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8C9EFF
+;
+}
