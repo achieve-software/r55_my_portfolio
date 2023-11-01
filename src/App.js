@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Cv from "./pages/Cv/Cv";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/cv" element={<Cv/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/projects" element={<Projects/>} />
           <Route path="/contact" element={<Contact/>} />

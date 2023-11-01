@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className='d-flex justify-content-between align-items-center'>
   
             <div className='logo'>
-              <Link to='/' className='brand'>MY CV</Link>
+              <Link to='/cv' className='brand'>MY CV</Link>
             </div>
             <nav className='nav nav-pills'>
               <NavLink to='/' 
