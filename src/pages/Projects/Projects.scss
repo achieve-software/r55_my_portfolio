@@ -1,13 +1,15 @@
-@import "../../sass/variables.scss";.projects-container{
+@import "../../sass/variables.scss";
+.projects-container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: linear-gradient(to right, rgba(gray, 0.2), rgba(gray, 0.1)), url("../../assets/img/11.jpg");
+    background: linear-gradient(to right, rgba(gray, 0.2), rgba(gray, 0.1)), url("../../assets/img/9.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 100vh;     .title-container{
+    min-height: 70vh;  
+       .title-container{
         display: flex;
         justify-content: center;
         align-items: flex-end;

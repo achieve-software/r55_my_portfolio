@@ -1,9 +1,9 @@
 @import "../../sass/variables.scss";.contact-container {
     background: linear-gradient(to right, rgba(gray, 0.2), rgba(gray, 0.1)),
-      url("../../assets/img/1.jpg");
+      url("../../assets/img/9.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -11,7 +11,7 @@
     align-items: center;
     gap: 2rem;
     h2{
-      color: yellow;
+      color: black;
      // color: $primary-color;
       font-family: $tertiary-font;
     }
@@ -28,7 +28,7 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 0.3rem;      p{
-          color: yellow;
+          color: black;
           //color: $tertiary-color;
           display: flex;
           gap: 0.3rem;
@@ -37,7 +37,7 @@
           font-family: $secondary-font;
         }
         .contact-text{
-          color: yellow;
+          color: black;
           //color: $text-color;
           font-family: $tertiary-font;
         }

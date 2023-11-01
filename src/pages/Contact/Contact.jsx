@@ -11,19 +11,19 @@ const Contact = () => {
           <p>
             <EmailIcon /> Email
           </p>
-          <div className="contact-text">mbozkaya27@gmail.com</div>
+          <div className="contact-text">akivv45@gmail.com</div>
         </div>
         <div className="contact-item">
           <p>
             <SmartphoneIcon/> Mobile
           </p>
-          <div className="contact-text">+90 541~964~7937</div>
+          <div className="contact-text">+1 (571) 360 66 77</div>
         </div>
         <div className="contact-item">
           <p>
             <LocationOnIcon /> Address
           </p>
-          <div className="contact-text">HATAY, Türkiye</div>
+          <div className="contact-text">Istanbul, Turkey</div>
         </div>
       </div>
     </div>

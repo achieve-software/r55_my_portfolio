@@ -1,11 +1,18 @@
-@import "../../sass/variables.scss";.footer{
+@import "../../sass/variables.scss";
+.footer{
+    
     width: 100%;
     padding: 1rem;
-    position: fixed;
-    bottom: 0;
+    // position: fixed;
+    // bottom: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;    .icons {
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(to right, rgba(gray, 0.2), rgba(gray, 0.1)), url("../../assets/img/9.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+       .icons {
         display: flex;
         justify-content: center;
         align-items: center;
