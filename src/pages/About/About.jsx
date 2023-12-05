@@ -10,6 +10,9 @@ import "./About.scss";const About = () => {
           As a driven professional, I am eager to take on new challenges and learning new technologies and tools.I look forward to applying my skills and expertise to full-stack web development and collaborating with industry professionals to create innovative and effective solutions.
         </p>
         <p>
+
+
+          
           My ambition is to make a significant contribution to projects while
           simultaneously building myself into a well-rounded full-stack
           developer. <strong>Anyone who keeps learning stays young !</strong>
