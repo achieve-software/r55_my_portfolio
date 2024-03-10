@@ -4,7 +4,7 @@ import "./About.scss";const About = () => {
       <div className="about-bio">     
          <h2>BIO</h2>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, saepe reprehenderit vero ea illum veritatis cupiditate fugit, laborum optio debitis voluptate facere sit, sequi unde perspiciatis totam non a? Dolore.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, saepe reprehenderit vero ea illum veritatis cupiditate fugit, laborum optio debitis voluptate facere sit, sequi unde perspiciatis totam Dolore.
         </p>
         <p>
           As a driven professional, I am eager to take on new challenges and learning new technologies and tools.I look forward to applying my skills and expertise to full-stack web development and collaborating with industry professionals to create innovative and effective solutions.

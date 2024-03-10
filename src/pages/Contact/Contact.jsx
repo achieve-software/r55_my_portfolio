@@ -11,13 +11,13 @@ const Contact = () => {
           <p>
             <EmailIcon /> Email
           </p>
-          <div className="contact-text">a@gmail.com</div>
+          <div className="contact-text">akivv@gmail.com</div>
         </div>
         <div className="contact-item">
           <p>
             <SmartphoneIcon/> Mobile
           </p>
-          <div className="contact-text">+1 (571) 360 /div>
+          <div className="contact-text">+1 (571) 3 77</div>
         </div>
         <div className="contact-item">
           <p>
