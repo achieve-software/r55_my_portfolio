@@ -18,7 +18,7 @@ import "./About.scss";const About = () => {
       <div className="about-experience">
         <div className="about-job">
           <h4 className="job-title">Frontend Developer</h4>
-          <h4 className="job-company">Bozkaya Software  Group, Istanbul</h4>
+          <h4 className="job-company"> Software  Group, Istanbul</h4>
           <h5 className="job-year">July 2023 – Present</h5>
           <p>
           Chakra UI · React.js · Redux Toolkit · RTK Query · JavaScript · Agile Web Development · Front-End Development
